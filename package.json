@@ -1,18 +1,19 @@
 {
-  "name": "reto-javascript",
-  "version": "1.0.0",
-  "description": "reto de javascript",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "reto",
-    "javascript"
-  ],
-  "author": "jhojan",
-  "license": "ISC",
-  "dependencies": {
-    "xmlhttprequest": "^1.8.0"
-  }
+    "name": "reto-javascript",
+    "version": "1.0.0",
+    "description": "reto de javascript",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "reto": "node src/reto/index.js"
+    },
+    "keywords": [
+        "reto",
+        "javascript"
+    ],
+    "author": "jhojan",
+    "license": "ISC",
+    "dependencies": {
+        "xmlhttprequest": "^1.8.0"
+    }
 }
